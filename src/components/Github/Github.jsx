@@ -27,6 +27,6 @@ export default Github
 export const gitDataLoader = async () => {
    const response = await fetch("https://api.github.com/users/umar-ril")
 
-   return response;
+   return response.json();
 
 }
