@@ -28,7 +28,7 @@ import User from './components/User/User.jsx'
 //   })
 const router = createBrowserRouter(
   createRoutesFromElements(
-      <Route path='/' element={<App />}>
+      <Route path='/react-Router/' element={<App />}>
       <Route path='' element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
