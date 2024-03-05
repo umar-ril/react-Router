@@ -9,23 +9,6 @@ import Contact from './components/Contact/Contact.jsx'
 import Github, { gitDataLoader } from './components/Github/Github.jsx'
 import User from './components/User/User.jsx'
 
-// const router = createBrowserRouter({
-//   path: '/',
-//   element: <App />,
-//   children: [{
-//     path: "",
-//     element: <Home />
-//   },
-//     {
-//       path: "About",
-//       element: <About />
-//     },
-//     {
-//       path: "Contact",
-//       element: <Contact />
-//     },
-//     ]
-//   })
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path='/react-Router/' element={<App />}>
